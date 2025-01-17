@@ -1,0 +1,94 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: MPLAB X
+## FORMAT:  v2.00.01
+## DEVICE:  PIC32MX370F512L
+
+## PINREGACTIONS
+cyc
+No Repeat
+RB9
+RB8
+RA15
+RF0
+RF3
+--
+0
+0
+0
+0
+0
+0
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND2
+Any
+
+
+
+0
+cyc
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+
+U2RXREG
+Message
+0
+10
+C:\serge\Vanier\courses\247-611-VA Embedded_ Operating_Systems\W20\Labs\submissions\Lab2_project-04-22-2020-02-08-20\dimitrigio\projects\Embedded_OS\uart.txt
+Pkt
+No
+
+--
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RA15
+Pulse High
+50 ms
+L1
+3
+--
+Pin
+RF0
+Pulse High
+50 ms
+L2
+3
+--
+Pin
+RB9
+Pulse High
+50 ms
+L2
+3
+--
+Pin
+RB8
+Pulse High
+50 ms
+OPEN
+3
+--
+Pin
+RF3
+Pulse High
+50 ms
+Emergency
+3
+--
+&
+## ADVANCEDSCL
+
+1
+&

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="66">
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/RTOS_slides_demos/Test_led/PIC32MX_MPLAB/task_event_group_elevator.c</url>
+            <bookmark id="18">
+                <name/>
+                <line>216</line>
+                <key/>
+            </bookmark>
+            <bookmark id="19">
+                <name/>
+                <line>821</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects/projects/RTOS_projects/RTOS_slides_demos/Test_led/PIC32MX_MPLAB/task_event_group_alarm_w_logic.c</url>
+            <bookmark id="2">
+                <name/>
+                <line>153</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/RTOS_slides_demos/Test_led/PIC32MX_MPLAB/task_event_group_elevator_v2.c</url>
+            <bookmark id="45">
+                <name/>
+                <line>543</line>
+                <key/>
+            </bookmark>
+            <bookmark id="46">
+                <name/>
+                <line>562</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/RTOS_slides_demos/Test_led/PIC32MX_MPLAB/task_event_group_elevator_two_tasks.c</url>
+            <bookmark id="26">
+                <name/>
+                <line>177</line>
+                <key/>
+            </bookmark>
+            <bookmark id="27">
+                <name/>
+                <line>476</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/common/console.c</url>
+            <bookmark id="52">
+                <name/>
+                <line>635</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/elevator_w25/Test_led/PIC32MX_MPLAB/task_event_group_elevator_v2.c</url>
+            <bookmark id="62">
+                <name/>
+                <line>105</line>
+                <key/>
+            </bookmark>
+            <bookmark id="58">
+                <name/>
+                <line>175</line>
+                <key/>
+            </bookmark>
+            <bookmark id="65">
+                <name/>
+                <line>230</line>
+                <key/>
+            </bookmark>
+            <bookmark id="63">
+                <name/>
+                <line>518</line>
+                <key/>
+            </bookmark>
+            <bookmark id="66">
+                <name/>
+                <line>541</line>
+                <key/>
+            </bookmark>
+            <bookmark id="61">
+                <name/>
+                <line>606</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/ssd.c</file>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/motors.c</file>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/main_elevator.c</file>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/Tick_core.c</file>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/initBoard.c</file>
+            <file>file:/C:/Users/houlds/Documents/Vanier/courses_C_drive/MPLAB_projects_original/projects/RTOS_projects/stu_elevator/stu_elevator_w25/Test_led/PIC32MX_MPLAB/util.c</file>
+        </group>
+    </open-files>
+</project-private>
