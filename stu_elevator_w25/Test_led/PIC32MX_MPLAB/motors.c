@@ -334,8 +334,8 @@ int motor_door_get(void){
 }
 
 /* Sets the level motor state   */
-/* dir = -1 goes up                 */
-/* dir = 1  goes down               */
+/* dir = 1 goes up                 */
+/* dir = -1  goes down               */
 /* dir = 0  stops it                */
 void motor_level_set(int dir){
     if(dir > 0) pwm_level_set(-5000); // up
