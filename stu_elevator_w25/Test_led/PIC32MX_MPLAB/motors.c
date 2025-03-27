@@ -24,6 +24,7 @@
 #include "include/Tick_core.h"
 
 
+
 static int32_t pos_door=0;  // door position
 static int32_t pos_level=0;  
 
@@ -113,6 +114,7 @@ char spin[]={'\\', '|', '/', '-'}; // spinning motor characters
 void __ISR( _TIMER_2_VECTOR, IPL1SOFT) T2InterruptHandler( void){
     char buff[100];
     static int cnt1=0, cnt2=0, door_moving=0, level_moving=0, lev_cnt=0, dr_cnt, pos_door_mem,  pos_level_mem;
+    static int lev_cnt_mem=-100, dr_cnt_mem =-100;
 #if defined(NO_MOTORS) || defined(SIMULATION) 
     if(motor_level_get()<0){ // motor CCW
         pos_level--;
@@ -196,6 +198,9 @@ void __ISR( _TIMER_2_VECTOR, IPL1SOFT) T2InterruptHandler( void){
         }
 #endif
         //if(pos_door != pos_door_mem){
+    if((lev_cnt != lev_cnt_mem) || (dr_cnt != dr_cnt_mem)){
+           lev_cnt_mem= lev_cnt;
+           dr_cnt_mem = dr_cnt;
            LCDPos1(0);
            LCDPutString("Door   ");
            /* rotating bar */
@@ -232,6 +237,7 @@ void __ISR( _TIMER_2_VECTOR, IPL1SOFT) T2InterruptHandler( void){
         itoa2(pos_level, buff, 10);
         LCDPutString(buff);
         LCDPutString("      ");
+    }
     //}
 #endif
     /* memorizes latest value */
@@ -473,7 +479,7 @@ static void pwm_level_set(int on){
 static char backslash[] = {0,16,8,4,2,1,0,0,0}; // backslash character
 static char pipe[] = {0,4,4,4,4,4,0,0,0};// short pipe character
 void encoders_init(void){
-    timer2_init();
+    
 #ifndef NO_MOTORS
     #ifndef  SIMULATION
         interrupt_init();
@@ -492,4 +498,5 @@ void encoders_init(void){
 #endif
     LCD_WriteBytesAtPosCgram(pipe,8, 8); // cgram pipe character
     LCD_WriteBytesAtPosCgram(backslash,8, 0); // cgram backslah character
+    timer2_init();
 }
